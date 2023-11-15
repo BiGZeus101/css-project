@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University website tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src='university_page/images/logo (1).png' alt="LOGO.img"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">COURSE</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>  
+
+    <div class="text-box">
+      <h1>WORLD'S BIGGEST ORGANIZATION</h1>
+      <P>Making website is now of the easiest things in the world you just need to learn HTML,CSS,<br>JavaScript and you are good to go.
+      </P>
+      <a href="" class="hero-btn">Visit us to know more</a>
+    </div>
+    </section>
+
+<!-- course -->
+<section class='course'>
+  <h1>Courses we Offer</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+<div class="row">
+  <div class="course-col">
+    <h3>Intermediate</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> Molestiae laudantium molestias facere tempore tempora accusantium.</p>
+  </div>
+
+  <div class="course-col">
+    <h3>Degree</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> Molestiae laudantium molestias facere tempore tempora accusantium.</p>
+  </div>
+
+  <div class="course-col">
+    <h3>Post Graduation</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> Molestiae laudantium molestias facere tempore tempora accusantium.</p>
+  </div>
+</div>
+</section>;
+
+<!-- campus -->
+<section class="campus">
+  <h1>Our Global Campus</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+
+<div class="row">
+  <div class="campus-col">
+<img src="university_page/images/london.png" alt="londonpic">
+<div class="layer">
+  <h3>LONDON</h3>
+</div>
+  </div>
+  <div class="campus-col">
+    <img src="university_page/images/newyork.png" alt="londonpic">
+    <div class="layer">
+      <h3>KUWAIT</h3>
+    </div>
+      </div>
+      <div class="campus-col">
+        <img src="university_page/images/washington.png" alt="londonpic">
+        <div class="layer">
+          <h3>NIGERIA</h3>
+        </div>
+          </div>
+  </div>
+</div>
+</section>
+
+
+
+ <!-- javascript for toggle menu  -->
+ <script>
+var navLinks = document.getElementById('navLinks');
+function showMenu(){
+  navLinks.style.right= '0';
+}
+function showMenu(){
+  navLinks.style.right= '-200px';
+}
+  </script>
+</body>
+</html>
